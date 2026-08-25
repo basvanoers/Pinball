@@ -1,0 +1,85 @@
+2026-08-25 09:48:08,340 : INFO : root : Loading config.
+2026-08-25 09:48:08,347 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-08-25 09:48:08,349 : WARNING : ConfigProcessor : Config file in cache changed: /home/bas/pinball/Pinball/RPI/machine/config/config.yaml
+2026-08-25 09:48:08,349 : INFO : ConfigProcessor : Loading config from file /home/bas/.pyenv/versions/3.9.18/envs/mpf/lib/python3.9/site-packages/mpf/mpfconfig.yaml.
+2026-08-25 09:48:08,408 : INFO : ConfigProcessor : Loading config: /home/bas/.pyenv/versions/3.9.18/envs/mpf/lib/python3.9/site-packages/mpf/mpfconfig.yaml
+2026-08-25 09:48:08,410 : INFO : ConfigProcessor : Loading config from file /home/bas/pinball/Pinball/RPI/machine/config/config.yaml.
+2026-08-25 09:48:08,413 : INFO : ConfigProcessor : Loading config: /home/bas/pinball/Pinball/RPI/machine/config/config.yaml
+2026-08-25 09:48:08,417 : INFO : ConfigProcessor : Config file cache created: /tmp/1a80585cfa5c12196b9369b5b8d6b27d.mpf_cache
+2026-08-25 09:48:08,597 : INFO : ConfigProcessor : Loading config from cache: /tmp/71d8c23965dc9e097bffd5011a8ffce4.mpf_cache
+2026-08-25 09:48:08,598 : INFO : ConfigProcessor : Loading config from cache: /tmp/2a323001f92700b4d1a80d066774fb35.mpf_cache
+2026-08-25 09:48:08,599 : INFO : Machine : Mission Pinball Framework Core Engine v0.57.5
+2026-08-25 09:48:08,599 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs/2026-08-25-09-48-08-mpf-raspberrypi.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2026-08-25 09:48:08,600 : INFO : Machine : MPF path: /home/bas/.pyenv/versions/3.9.18/envs/mpf/lib/python3.9/site-packages/mpf
+2026-08-25 09:48:08,600 : INFO : Machine : Machine path: /home/bas/pinball/Pinball/RPI/machine
+2026-08-25 09:48:08,600 : INFO : Machine : Platform: linux
+2026-08-25 09:48:08,600 : INFO : Machine : Python executable location: /home/bas/.pyenv/versions/3.9.18/envs/mpf/bin/python
+2026-08-25 09:48:08,600 : INFO : Machine : Python version: 3.9.18 (64-bit)
+2026-08-25 09:48:08,602 : INFO : Machine : Initializing MPF...
+2026-08-25 09:48:08,741 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2026-08-25 09:48:08,857 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2026-08-25 09:48:08,858 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.57.5', 'prev_value': None, 'change': True}
+2026-08-25 09:48:08,858 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.57.5, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2026-08-25 09:48:08,858 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.9.18', 'prev_value': None, 'change': True}
+2026-08-25 09:48:08,869 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Linux-6.12.96+rpt-rpi-v8-aarch64-with-glibc2.36', 'prev_value': None, 'change': True}
+2026-08-25 09:48:08,869 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Linux', 'prev_value': None, 'change': True}
+2026-08-25 09:48:08,869 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '6.12.96+rpt-rpi-v8', 'prev_value': None, 'change': True}
+2026-08-25 09:48:08,870 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '#1 SMP PREEMPT Debian 1:6.12.96-1+rpt1 (2026-07-24)', 'prev_value': None, 'change': True}
+2026-08-25 09:48:08,870 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'aarch64', 'prev_value': None, 'change': True}
+2026-08-25 09:48:08,870 : INFO : EventManager : Event: ======'machine_var_log_file_path'====== Args={'value': '', 'prev_value': None, 'change': True}
+2026-08-25 09:48:08,871 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2026-08-25 09:48:08,901 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...our config.')>) at /home/bas/.pyenv/versions/3.9.18/envs/mpf/lib/python3.9/site-packages/mpf/core/events.py:124
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...our config.')>) at /home/bas/.pyenv/versions/3.9.18/envs/mpf/lib/python3.9/site-packages/mpf/core/events.py:124>
+Traceback (most recent call last):
+  File "/home/bas/.pyenv/versions/3.9.18/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/bas/.pyenv/versions/3.9.18/envs/mpf/lib/python3.9/site-packages/mpf/core/events.py", line 127, in _async_handler_done
+    future.result()
+  File "/home/bas/.pyenv/versions/3.9.18/envs/mpf/lib/python3.9/site-packages/mpf/core/device_manager.py", line 88, in _load_device_modules
+    self.load_devices_config(validate=True)
+  File "/home/bas/.pyenv/versions/3.9.18/envs/mpf/lib/python3.9/site-packages/mpf/core/device_manager.py", line 146, in load_devices_config
+    config[device_name] = collection[device_name].validate_and_parse_config(config[device_name], False)
+  File "/home/bas/.pyenv/versions/3.9.18/envs/mpf/lib/python3.9/site-packages/mpf/core/device.py", line 108, in validate_and_parse_config
+    self.machine.config_validator.validate_config(
+  File "/home/bas/.pyenv/versions/3.9.18/envs/mpf/lib/python3.9/site-packages/mpf/core/config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+  File "/home/bas/.pyenv/versions/3.9.18/envs/mpf/lib/python3.9/site-packages/mpf/core/config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+  File "/home/bas/.pyenv/versions/3.9.18/envs/mpf/lib/python3.9/site-packages/mpf/core/config_validator.py", line 243, in validate_config_item
+    return self.validate_item(item, validation, validation_failure_info)
+  File "/home/bas/.pyenv/versions/3.9.18/envs/mpf/lib/python3.9/site-packages/mpf/core/config_validator.py", line 686, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+  File "/home/bas/.pyenv/versions/3.9.18/envs/mpf/lib/python3.9/site-packages/mpf/core/config_validator.py", line 400, in _validate_type_machine
+    raise self.validation_error(item, validation_failure_info,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry flippers:left_flipper:main_coil = "c_flipper_left_main" is not valid. Device "c_flipper_left_main" not found in "coils:" section in your config. Error Code: CFE-ConfigValidator-6 (https://missionpinball.org/latest/logs)
+2026-08-25 09:48:08,916 : INFO : Machine : Starting the main run loop with active modes: []
+2026-08-25 09:48:08,917 : WARNING : Machine : Attract mode is not active, game will not be playable. Please check your attract mode configuration.
+2026-08-25 09:48:08,918 : INFO : Machine : Shutting down...
+2026-08-25 09:48:08,918 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2026-08-25 09:48:09,921 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "/home/bas/.pyenv/versions/3.9.18/envs/mpf/lib/python3.9/site-packages/mpf/core/machine.py", line 810, in _run_loop
+    raise self._exception['exception']
+  File "/home/bas/.pyenv/versions/3.9.18/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/bas/.pyenv/versions/3.9.18/envs/mpf/lib/python3.9/site-packages/mpf/core/events.py", line 127, in _async_handler_done
+    future.result()
+  File "/home/bas/.pyenv/versions/3.9.18/envs/mpf/lib/python3.9/site-packages/mpf/core/device_manager.py", line 88, in _load_device_modules
+    self.load_devices_config(validate=True)
+  File "/home/bas/.pyenv/versions/3.9.18/envs/mpf/lib/python3.9/site-packages/mpf/core/device_manager.py", line 146, in load_devices_config
+    config[device_name] = collection[device_name].validate_and_parse_config(config[device_name], False)
+  File "/home/bas/.pyenv/versions/3.9.18/envs/mpf/lib/python3.9/site-packages/mpf/core/device.py", line 108, in validate_and_parse_config
+    self.machine.config_validator.validate_config(
+  File "/home/bas/.pyenv/versions/3.9.18/envs/mpf/lib/python3.9/site-packages/mpf/core/config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+  File "/home/bas/.pyenv/versions/3.9.18/envs/mpf/lib/python3.9/site-packages/mpf/core/config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+  File "/home/bas/.pyenv/versions/3.9.18/envs/mpf/lib/python3.9/site-packages/mpf/core/config_validator.py", line 243, in validate_config_item
+    return self.validate_item(item, validation, validation_failure_info)
+  File "/home/bas/.pyenv/versions/3.9.18/envs/mpf/lib/python3.9/site-packages/mpf/core/config_validator.py", line 686, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+  File "/home/bas/.pyenv/versions/3.9.18/envs/mpf/lib/python3.9/site-packages/mpf/core/config_validator.py", line 400, in _validate_type_machine
+    raise self.validation_error(item, validation_failure_info,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry flippers:left_flipper:main_coil = "c_flipper_left_main" is not valid. Device "c_flipper_left_main" not found in "coils:" section in your config. Error Code: CFE-ConfigValidator-6 (https://missionpinball.org/latest/logs)
+2026-08-25 09:48:10,190 : INFO : crash_reporter : Will not report crash as "report_crashes" mode is "never"
+2026-08-25 09:48:10,190 : INFO : root : MPF run loop ended.

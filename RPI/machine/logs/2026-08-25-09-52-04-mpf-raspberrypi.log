@@ -1,0 +1,6 @@
+2026-08-25 09:52:04,249 : INFO : root : Loading config.
+2026-08-25 09:52:04,256 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2026-08-25 09:52:04,257 : WARNING : ConfigProcessor : Config file in cache changed: /home/bas/pinball/Pinball/RPI/machine/config/config.yaml
+2026-08-25 09:52:04,258 : INFO : ConfigProcessor : Loading config from file /home/bas/.pyenv/versions/3.9.18/envs/mpf/lib/python3.9/site-packages/mpf/mpfconfig.yaml.
+2026-08-25 09:52:04,317 : INFO : ConfigProcessor : Loading config: /home/bas/.pyenv/versions/3.9.18/envs/mpf/lib/python3.9/site-packages/mpf/mpfconfig.yaml
+2026-08-25 09:52:04,320 : INFO : ConfigProcessor : Loading config from file /home/bas/pinball/Pinball/RPI/machine/config/config.yaml.
