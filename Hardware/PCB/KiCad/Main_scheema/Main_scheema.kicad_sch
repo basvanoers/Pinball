@@ -1,0 +1,350 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "52669bec-70ab-4ab5-8c4a-bf3d90279df0")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 191.77 24.13)
+		(size 41.91 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "28e33cbb-fcca-41a1-9571-2613e0e56ce7")
+		(property "Sheetname" "Power_supply"
+			(at 191.77 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_supply.kicad_sch"
+			(at 191.77 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main_scheema"
+				(path "/52669bec-70ab-4ab5-8c4a-bf3d90279df0"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.15 107.95)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "60eb464d-a12d-46b3-976e-f6da4ff463b8")
+		(property "Sheetname" "Motors"
+			(at 57.15 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motors.kicad_sch"
+			(at 57.15 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main_scheema"
+				(path "/52669bec-70ab-4ab5-8c4a-bf3d90279df0"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 66.04)
+		(size 35.56 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8fda1009-9141-443c-a4be-fada25ba26d7")
+		(property "Sheetname" "Lights"
+			(at 58.42 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Lights.kicad_sch"
+			(at 58.42 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main_scheema"
+				(path "/52669bec-70ab-4ab5-8c4a-bf3d90279df0"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 64.77)
+		(size 38.1 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "91d05eb8-b3c0-49b9-b8b6-38db1a4dda1b")
+		(property "Sheetname" "Processor"
+			(at 120.65 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Processor.kicad_sch"
+			(at 120.65 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main_scheema"
+				(path "/52669bec-70ab-4ab5-8c4a-bf3d90279df0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 110.49)
+		(size 45.72 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b6e67295-9368-4f61-8ab2-ec406eb67513")
+		(property "Sheetname" "Sensors"
+			(at 190.5 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensors.kicad_sch"
+			(at 190.5 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main_scheema"
+				(path "/52669bec-70ab-4ab5-8c4a-bf3d90279df0"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 64.77)
+		(size 43.18 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c38865b4-183d-4e75-ba2a-8aa48656ce39")
+		(property "Sheetname" "UI"
+			(at 190.5 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "UI.kicad_sch"
+			(at 190.5 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main_scheema"
+				(path "/52669bec-70ab-4ab5-8c4a-bf3d90279df0"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 20.32)
+		(size 36.83 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e8638078-87a2-4a34-9cbd-f447f08b7398")
+		(property "Sheetname" "Display"
+			(at 119.38 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Display.kicad_sch"
+			(at 119.38 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main_scheema"
+				(path "/52669bec-70ab-4ab5-8c4a-bf3d90279df0"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 109.22)
+		(size 40.64 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f71eabd4-0f57-42c5-87b0-306e637c22c3")
+		(property "Sheetname" "Flippers"
+			(at 121.92 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Flippers.kicad_sch"
+			(at 121.92 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main_scheema"
+				(path "/52669bec-70ab-4ab5-8c4a-bf3d90279df0"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
