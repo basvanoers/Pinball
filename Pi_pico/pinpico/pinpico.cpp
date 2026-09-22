@@ -7,7 +7,7 @@ int main()
 {
     stdio_init_all();
     Switch s1(19);
-    Coil c1(16);
+    Coil c1(16,17);
     
     while (true) {
         if(s1.is_pressed())

@@ -1,7 +1,7 @@
 class Coil
 {
     public:
-      Coil(int g);
+      Coil(int g,int en);
       void turn_on();
       void turn_on_update();
       void turn_on_full_power();
@@ -11,6 +11,7 @@ class Coil
 
     private:
       int gpio;
+      int gpio_en;
       int last_state;
       int  slice;
       int  channel;
