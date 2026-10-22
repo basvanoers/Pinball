@@ -38,7 +38,7 @@ void Coil::turn_on_update()
 
     
         if (time_us_64() - solenoidStartTime >= 200000) {
-            set_power(10000);
+            set_power(3000);
             
         }
     

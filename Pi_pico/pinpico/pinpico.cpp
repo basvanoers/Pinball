@@ -8,8 +8,8 @@ int main()
     stdio_init_all();
     Switch s1(19);
     Switch s2(18);
-    Coil c1(16,17);
-    Coil c2(14,15);
+    Coil c1(17,16);
+    Coil c2(15,14);
     
     while (true) {
         if(s1.is_pressed())
